@@ -19,7 +19,7 @@ async function checkWeather(city){
         error.style.display="block"
         detail[0].style.display = "none"
         detail[1].style.display = "none"
-        // img.style.display = "none"
+        img.style.display = "none"
         temp.style.display = "none"
         cityName.style.display= "none"
     }else{
